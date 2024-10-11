@@ -726,8 +726,7 @@ h6 {
 --------------------------------------------------------------*/
 
 .modal-dialog {
-  max-width: 900px; 
-  width: 100%; 
+  /* Remove custom max-width and width */
 }
 
 .modal-body {
