@@ -1,3 +1,7 @@
+<?php
+include "db_conn.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,13 +33,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: NiceAdmin
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Updated: Apr 20 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -50,7 +47,7 @@
 
               <div class="d-flex justify-content-center py-4">
                 <h1 class="sitename">
-                    <a href="index.html" class="logo d-flex align-items-center w-auto" style="text-decoration: none;">
+                    <a href="index.php" class="logo d-flex align-items-center w-auto" style="text-decoration: none;">
                     <span style="color: #2c4964;">BloodLine</span>
                   </a>
                 </h1>
@@ -92,7 +89,7 @@
                       <button class="btn btn-primary w-100" type="submit">Login</button>
                     </div>
                     <div class="col-12">
-                      <p class="small mb-0">Don't have an account? <a href="page-register.html">Create an account</a></p>
+                      <p class="small mb-0">Don't have an account? <a href="page-register.php">Create an account</a></p>
                     </div>
                   </form>
 
